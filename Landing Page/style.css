@@ -196,4 +196,83 @@ body {
   transform: translateY(-10px);
 }
 
-.f
+.feature-card h3 {
+  margin-bottom: 15px;
+  color: #e94560;
+}
+
+.feature-card p {
+  color: #444;
+  font-size: 1rem;
+}
+
+.contact {
+  background: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.contact h2 {
+  margin-bottom: 1rem;
+  color: #1a1a2e;
+}
+
+.contact p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.contact a {
+  color: #e94560;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  background: #1a1a2e;
+  color: #bbb;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9rem;
+}
+
+@keyframes fadeSlideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeSlideInLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeSlideInRight {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .about-flex {
+    flex-direction: column;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .features-grid {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
